@@ -1,0 +1,215 @@
+header.container{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+    max-width: 100vw;
+
+    min-height: 100vh;
+    background-image: url("../Image/Bg_banner.jpeg");
+    background-position: center;
+    background-size: cover;
+
+
+}
+header.container nav {
+    padding-top: 2rem;
+    max-width: 1200px;
+    font-size: 12px;
+}
+
+.nav-item a.nav-link{
+    text-transform: uppercase;
+    color: #191919;
+}
+.nav-item a.active, .nav-item a:hover {
+    color: #10c9c3;
+}
+a.header-logo{
+    display: block;
+    margin: 0.5rem auto;
+    width: 31px;
+    height: 25px;
+    background-image: url(../Image/logo.png);
+}
+a.burger{
+    position: absolute;
+    width: 100%;
+    height: 2.125rem;
+    left: 0;
+    overflow: hidden;
+    display: none;
+    background-color: #2e2b29;
+}
+
+a.burger span{
+    display: block;
+    height: 2px;
+    background-color: #c9c5bf;
+    position: absolute;
+    transition: 500ms ease;
+    left: calc(50% - 100px);
+    top: 25%;
+    width: 200px;
+
+}
+a.burger span:last-child{
+    top: 75%;
+}
+a.burger span:nth-child(2){
+    top: 50%;
+
+}
+@-webkit-keyframes kolesoOne {
+    0%{
+        top: 25%
+    }
+    25%{
+        top: 50%;
+    }
+
+    50% {
+        top: 75%;
+    }
+    75% {
+        top: 50%;
+    }
+    100%{
+        top: 25%;
+    }
+}@-webkit-keyframes kolesoTwo {
+    0%{
+        top: 50%
+    }
+    25%{
+        top: 75%;
+    }
+
+    50% {
+        top: 50%;
+    }
+    75% {
+        top: 25%;
+    }
+    100%{
+        top: 50%;
+    }
+}@-webkit-keyframes kolesoThree {
+    0%{
+        top: 75%
+    }
+    25%{
+        top: 50%;
+    }
+
+    50% {
+        top: 25%;
+    }
+    75% {
+        top: 50%;
+    }
+    100%{
+        top: 75%;
+    }
+}
+a.burger.down span:first-child{
+    -webkit-animation: kolesoOne 1s 1 ease-in-out;
+}
+a.burger.down span:nth-child(2){
+    -webkit-animation: kolesoTwo 1s 1 ease-in-out;
+
+}
+a.burger.down span:last-child{
+    -webkit-animation: kolesoThree 1s 1 ease-in-out;
+}
+
+
+
+
+
+
+
+
+.baner {
+    margin-top: 175px;
+
+}
+.baner h2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.baner p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    color: #787878;
+    margin: 40px 0;
+}
+.baner a {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-size: 12px;
+    width: 180px;
+    height: 55px;
+    background-color: #10c9c3;
+    padding: 1.25rem 0;
+    margin-left: 15px;
+}
+.baner a:hover{
+    color: #10c9c3;
+    background-color: transparent;
+    border-color: #10c9c3;
+}
+
+@media screen and (max-width: 575px){
+    .baner {
+        margin-top: 1rem;
+    }
+
+    header.container {
+        max-height: 100vh;
+    }
+    .nav-item {
+        width: 100%;
+    }
+    .nav-item a.nav-link{
+        color: #10c9c3;
+    }
+    .nav-item a.nav-link:hover{
+        color: #98c1c9;
+    }
+    .nav{
+        padding: 2rem 0 0 2rem;
+    position: fixed;
+    height: 70%;
+    width: 100vw;
+    top:-70%;
+    margin: 0;
+    transition: 1000ms ease;
+    z-index: 9999;
+    background-color: #2e3133;
+    }
+    a.burger{
+        bottom: -2.125rem;
+        display: block;
+    }
+    .show {
+        top: 0;
+    }
+    #nav-shadow{
+        display: none;
+        content: '';
+        background-color: rgba(0,0,0,.3);
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 9998;
+    }
+    .baner p{
+        margin: 15px 0;
+    }
+}
+
+/*@media screen and (max-width: )*/

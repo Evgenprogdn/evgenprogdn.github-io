@@ -1,0 +1,42 @@
+string(6) "select"
+array(1) {
+  [0]=>
+  array(2) {
+    ["id"]=>
+    string(7) "1116332"
+    ["ua"]=>
+    string(133) "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+  }
+}
+string(133) "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+string(6) "return"
+string(133) "Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1"
+string(6) "select"
+array(1) {
+  [0]=>
+  array(2) {
+    ["id"]=>
+    string(4) "4127"
+    ["refer"]=>
+    string(32) "http://radiomap.eu/ru/play/relax"
+  }
+}
+string(32) "http://radiomap.eu/ru/play/relax"
+string(6) "return"
+string(32) "http://radiomap.eu/ru/play/relax"
+string(6) "select"
+array(1) {
+  [0]=>
+  array(2) {
+    ["id"]=>
+    string(2) "16"
+    ["url"]=>
+    string(17) "/m101.php?uid=200"
+  }
+}
+string(17) "/m101.php?uid=200"
+string(6) "return"
+string(17) "/m101.php?uid=200"
+#EXTM3U
+#EXTINF:-1,101.ru - best music
+http://ic3.101.ru:8000/v13_1?t=?setst=&tok=AiVK3IltHwOvu%2FImrz49uAWDHZCLqV3caIL%2FB1XSGZ4U8Njc9YC%2BBQ%3D%3D
